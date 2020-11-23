@@ -1,0 +1,46 @@
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	margin-top:25px;
+	margin-right: 45px;
+background-color:Lightsalmon;width:700px;height:530px;float:right;text-align:center;font-family:verdana;
+}
+ body{
+background:url(chicas.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+aside{
+   background-color:Palegreen;width:300px;height:600px;float:left;margin-left: 200px;
+}
+div#memory_board > div{
+	background: url(tile_bg.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:right;
+	margin:10px;
+	padding:20px;
+	font-size:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#jugador1{
+width:300px;height:275px;float:left;text-align:center;
+}
+#jugador2{
+width:300px;height:275px;float:left;text-align: center;
+}
+#separador{
+   background-color:Lightpink;width:300px;height:50px;float:left;
+}
+   .black {
+  background-color:Lightblue ;
+  color: white;
+}
+   .white {
+  background-color:Lightblue ;
+  color: black;
+}
